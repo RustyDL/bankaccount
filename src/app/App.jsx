@@ -3,6 +3,7 @@ import Transactions from "../features/transactions/Transactions";
 import { Provider } from "react-redux";
 import { store } from "./store";
 
+
 import "./app.css";
 
 const App = () => {
