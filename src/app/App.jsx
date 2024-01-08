@@ -3,10 +3,8 @@ import Transactions from "../features/transactions/Transactions";
 import { Provider } from "react-redux";
 import { store } from "./store";
 
-
 import "./app.css";
 
-// TODO: Import the Redux store and provide it to this component using <Provider>.
 const App = () => {
   return (
     <Provider store={store}>
